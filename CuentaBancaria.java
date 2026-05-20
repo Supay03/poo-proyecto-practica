@@ -2,6 +2,7 @@ package tarjeta;
 public class CuentaBancaria {
     private String titular;
     private double saldo;
+    private double deuda;
 
     public void setTitular(String titular) {
         this.titular = titular;
@@ -11,7 +12,7 @@ public class CuentaBancaria {
         return titular;
     }
 
-    public double getSaldo() {
+    public double getSaldo() {  
         return saldo;
     }
 
